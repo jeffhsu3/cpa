@@ -10,11 +10,11 @@ packages = [
 ]
 
 [tool.poetry.dependencies]
-python = ">=3.9, <3.11"
+python = ">=3.9"
 llvmlite = "^0.41"
-anndata = ">=0.9.0, <0.10.0"
+anndata = ">=0.9.0"
 scipy = ">=1.12.0, <1.13.0"
-scvi-tools = ">=0.20.3,<1.0.0"
+scvi-tools = ">=0.20.3"
 importlib-metadata = "*"
 scanpy = "*"
 rdkit-pypi = "*"
